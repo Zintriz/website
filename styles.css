@@ -7,24 +7,23 @@ html,body {
 	height: 96%;
 	width: 100%;
 }
-
-html {
-	background-color: black;
-	color: white;
-	
-}
-
-
-table {
+img {
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 53.4%;
 	transform: translate(-50%, -50%);
+	height: 100%;
+	z-index: -1;
+
+}
+html {
+	background-color: #0c0b09;
+	color: white;
+}
+.mp {
+	padding: 1em;
 }
 
-img {
-	width: 60px;
-}
 #toc-game-1,
 #toc-vids,
 #toc-servers,
